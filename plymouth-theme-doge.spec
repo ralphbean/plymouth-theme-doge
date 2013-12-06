@@ -8,7 +8,7 @@ Summary:        Plymouth Very Doge Theme
 
 Group:          System Environment/Base
 License:        CC-BY-SA
-URL:            http://threebean.org/doge/
+URL:            https://github.com/ralphbean/plymouth-theme-doge
 Source0:        %{name}-%{version}.tar.bz2
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
 BuildArch:      noarch
