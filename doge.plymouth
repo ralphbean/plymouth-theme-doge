@@ -9,5 +9,5 @@ HorizontalAlignment=.5
 VerticalAlignment=.5
 Transition=none
 TransitionDuration=0.0
-BackgroundStartColor=0x416fa7
-BackgroundEndColor=0x4b83c1
+BackgroundStartColor=0xeeeeee
+BackgroundEndColor=0xcccccc
