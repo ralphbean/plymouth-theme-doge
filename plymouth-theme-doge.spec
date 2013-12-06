@@ -53,7 +53,7 @@ if [ $1 -eq 0 ]; then
 fi
 
 %files
-%doc README
+%doc README.rst
 %dir %{_datadir}/plymouth/themes/%{themename}
 %{_datadir}/plymouth/themes/%{themename}/*.png
 %{_datadir}/plymouth/themes/%{themename}/%{themename}.plymouth
