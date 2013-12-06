@@ -2,7 +2,7 @@
 %define set_theme %{_sbindir}/plymouth-set-default-theme
 
 Name:           plymouth-theme-%{themename}
-Version:        0.1
+Version:        0.6
 Release:        1%{?dist}
 Summary:        Plymouth Very Doge Theme
 
