@@ -3,7 +3,7 @@
 
 Name:           plymouth-theme-%{themename}
 Version:        0.6
-Release:        1%{?dist}
+Release:        2%{?dist}
 Summary:        Plymouth Very Doge Theme
 
 Group:          System Environment/Base
@@ -26,7 +26,6 @@ This package contain boot splash for Plymouth.  Very doge.  Such boot.
 
 %install
 targetdir=$RPM_BUILD_ROOT/%{_datadir}/plymouth/themes/%{themename}
-rm -rf $RPM_BUILD_ROOT
 install -d -m 0755 $targetdir
 install -m 0644 %{themename}.plymouth *.png $targetdir
 
@@ -53,11 +52,7 @@ if [ $1 -eq 0 ]; then
     fi
 fi
 
-%clean
-rm -rf $RPM_BUILD_ROOT
-
 %files
-%defattr(-,root,root,-)
 %doc README
 %dir %{_datadir}/plymouth/themes/%{themename}
 %{_datadir}/plymouth/themes/%{themename}/*.png
